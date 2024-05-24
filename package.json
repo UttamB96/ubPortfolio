@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "opportfolio",
-  "version": "1.2.0",
-  "homepage": "http://hrishi.tech/",
+  "name": "ubportfolio",
+  "version": "1.2.2",
+  "homepage": "http://uttamb.netlify.app",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
