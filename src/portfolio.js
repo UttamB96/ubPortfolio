@@ -17,7 +17,7 @@ const greeting = {
   subTitle:
     "Software Engineer, Linux & Networks Enthusiast. Constantly Evolving...",
   resumeLink:
-    "https://drive.google.com/file/d/1TyKewig4yrwJAIBtSAXZ7tEfDIexgMyf/view?usp=sharing",
+    "https://drive.google.com/file/d/1pOgH8DOPs0xfVPAGUtjLYOfUsM0uPcQR/view?usp=sharing",
   mail: "mailto:uttambangera@outlook.com",
 };
 
