@@ -17,7 +17,7 @@ const greeting = {
   subTitle:
     "Software Engineer, Linux & Networks Enthusiast. Constantly Evolving...",
   resumeLink:
-    "https://drive.google.com/file/d/1pOgH8DOPs0xfVPAGUtjLYOfUsM0uPcQR/view?usp=sharing",
+    "https://drive.google.com/file/d/1pOgH8DOPs0xfVPAGUtjLYOfUsM0uPcQR/view?usp=drive_link",
   mail: "mailto:uttambangera@outlook.com",
 };
 
@@ -25,7 +25,7 @@ const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/UttamB96",
   linkedin: "https://www.linkedin.com/in/uttam-bangera-089622/",
-  gmail: "uttambangera@outlook.com"
+  gmail: "uttambangera@outlook.com",
   //gitlab: " ",
   //facebook: " ",
   //twitter: " ",
@@ -246,7 +246,7 @@ const degrees = {
       alt_name: "SJEC",
       duration: "2014 - 2018",
       descriptions: [
-        "⚡Studied Microprocessors, Programming and Robotics as electives during my course."
+        "⚡Studied Microprocessors, Programming and Robotics as electives during my course.",
       ],
       website_link: "https://sjec.ac.in/",
     },
@@ -321,7 +321,8 @@ const experience = {
           logo_path: "lti.jpg",
           duration: "Oct 2018 - Oct 2021",
           location: "Pune, India",
-          description: "Received appreciation from organization for business deliverables.",
+          description:
+            "Received appreciation from organization for business deliverables.",
           color: "#FF6619",
         },
         {
@@ -331,9 +332,10 @@ const experience = {
           logo_path: "dal.png",
           duration: "Jan 2023 - July 2024",
           location: "Halifax, NS, Canada",
-          description: "Received 4 scholarships for being among the top 10% in class.",
+          description:
+            "Received 4 scholarships for being among the top 10% in class.",
           color: "#FFBB33",
-        }
+        },
       ],
     },
     {
@@ -360,7 +362,7 @@ const experience = {
           description:
             "Day to day resposibilites of this position included planning and organizing programming and robotics workshops, as well as contests for both club members and students.",
           color: "#FF6619",
-        }
+        },
       ],
     },
   ],
@@ -381,7 +383,7 @@ const contactPageData = {
     profile_image_path: "uttam.png",
     description:
       "You can contact me through email or the links mentioned below. I will get back to you as soon as possible.",
-  }
+  },
 };
 
 const projects = {
@@ -389,7 +391,8 @@ const projects = {
     {
       name: "Credit Card Customer Churn",
       url: "https://github.com/UttamB96/Python-Data-Jungle/",
-      description: "An ML model that predicts if a Credit Card customer will churn, based on the provided input data.",
+      description:
+        "An ML model that predicts if a Credit Card customer will churn, based on the provided input data.",
       languages: [
         {
           name: "Python",
@@ -410,7 +413,7 @@ const projects = {
         {
           name: "Matplotlib",
           iconifyClass: "logos-matplotlib",
-        }
+        },
       ],
     },
   ],
