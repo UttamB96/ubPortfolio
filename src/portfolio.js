@@ -9,8 +9,8 @@ const settings = {
 
 // Home Page
 const greeting = {
-  title: "Hello.",
-  title2: "Uttam!",
+  title: "Hello!",
+  title2: "Uttam",
   logo_name: "uttam.b()",
   nickname: "uttamb / picleric",
   full_name: "Uttam Madhukar Bangera",
@@ -25,7 +25,7 @@ const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/UttamB96",
   linkedin: "https://www.linkedin.com/in/uttam-bangera-089622/",
-  gmail: "uttambangera@outlook.com",
+  email: "uttambangera@outlook.com",
   //gitlab: " ",
   //facebook: " ",
   //twitter: " ",
@@ -39,7 +39,7 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive website front end using ReactJS",
-        "⚡ Backend development using Node.JS and Express.JS",
+        "⚡ Backend development using Django or Node.JS",
       ],
       softwareSkills: [
         {
@@ -49,13 +49,13 @@ const skills = {
             color: "#E34F26",
           },
         },
-        /*{
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+        {
+          skillName: "Typescript",
+          fontAwesomeClassname: "simple-icons:typescript",
           style: {
             color: "#1572B6",
           },
-        },*/
+        },
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
@@ -64,29 +64,6 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-        /*{
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            backgroundColor: "#FFFFFF",
-            color: "#f89820",
-          },
-        },
-        {
-          skillName: "Visual Basic",
-          fontAwesomeClassname: "simple-icons:dot-net",
-          style: {
-            color: "#029FCE",
-          },
-        },
-        {
-          skillName: "C#",
-          fontAwesomeClassname: "simple-icons:csharp",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },*/
         {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
@@ -94,14 +71,22 @@ const skills = {
             color: "#61DAFB",
           },
         },
-        /*{
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-js",
+        {
+          skillName: "Django",
+          fontAwesomeClassname: "simple-icons:django",
           style: {
             //backgroundColor: "#FFFFFF",
             color: "#339933",
           },
-        },*/
+        },
+        {
+          skillName: "TSNode",
+          fontAwesomeClassname: "simple-icons:tsnode",
+          style: {
+            //backgroundColor: "#FFFFFF",
+            color: "#339933",
+          },
+        },
         {
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
@@ -110,8 +95,8 @@ const skills = {
           },
         },
         {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
+          skillName: "Postgre Sql",
+          fontAwesomeClassname: "simple-icons:postgresql",
           style: {
             color: "#4479A1",
           },
@@ -119,6 +104,13 @@ const skills = {
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
+          style: {
+            color: "#E94E32",
+          },
+        },
+        {
+          skillName: "GitHub",
+          fontAwesomeClassname: "simple-icons:github",
           style: {
             color: "#E94E32",
           },
@@ -131,13 +123,13 @@ const skills = {
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Certified AWS Cloud Practioner",
-        "⚡ Experience working on multiple cloud platforms, including Azure and GCP.",
-        "⚡ Deploying Microsoft Chatbot on cloud to use on websites",
+        "⚡ Experience working on multiple cloud platforms, including Azure",
+        "⚡ Deploying Microservices on cloud to use on websites",
       ],
       softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
+          skillName: "Azure",
+          fontAwesomeClassname: "simple-icons:microsoftazure",
           style: {
             color: "#4285F4",
           },
@@ -157,8 +149,8 @@ const skills = {
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "Ansible",
+          fontAwesomeClassname: "simple-icons:ansible",
           style: {
             color: "#47A248",
           },
@@ -196,13 +188,6 @@ const skills = {
             color: "#D00000",
           },
         },
-        /*{
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },*/
         {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
@@ -241,7 +226,7 @@ const degrees = {
     },
     {
       title: "St. Joseph Engineering College",
-      subtitle: "B.Tech. in Mechnical Engineering",
+      subtitle: "B.Eng. in Mechnical Engineering",
       logo_path: "sjec.jpg",
       alt_name: "SJEC",
       duration: "2014 - 2018",
@@ -260,7 +245,7 @@ const certifications = {
       subtitle: "Amazon Web Services",
       logo_path: "aws.png",
       certificate_link:
-        "https://drive.google.com/file/d/18p1i3FQXokNJPJuwYl0Go5uC13ClRMzT/view?usp=sharing",
+        "https://drive.google.com/file/d/1kUuoSvHx6mRSvPh6ytZT9yITK5rJEjtv/view?usp=drive_link",
       alt_name: "AWS",
       color_code: "#ffc475",
     },
@@ -281,7 +266,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have over 4 years of work experience as a Software Engineer and Analyst. I am actively seeking new opportunites to showcase my expertise and skills to drive business forward.",
+    "I have over 4 years of work experience as a Software Developer and Engineer. I am actively seeking new opportunites to showcase my expertise and skills to drive business forward.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -346,7 +331,7 @@ const experience = {
           company: "Dalhousie University",
           company_url: "https://www.dal.ca/",
           logo_path: "dal.png",
-          duration: "February - March 2024",
+          duration: "February 2023 - July 2024",
           location: "Halifax, NS, Canada",
           description:
             "Provided comprehensive support in teaching-related tasks, including student mentorship and laboratory management, ensuring a cohesive and supportive learning environment.",
@@ -372,7 +357,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects makes use of vast variety of latest technology tools. Below are some of my projects.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -386,6 +371,7 @@ const contactPageData = {
   },
 };
 
+//Projects Page Info
 const projects = {
   data: [
     {
