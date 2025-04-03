@@ -215,7 +215,7 @@ const degrees = {
     {
       title: "Dalhousie University",
       subtitle: "Masters of Engineering - Internetworking",
-      logo_path: "dal.png",
+      logo_path: "Dal.png",
       alt_name: "DAL",
       duration: "2023 - 2024",
       descriptions: [
@@ -226,15 +226,15 @@ const degrees = {
       website_link: "https://www.dal.ca/",
     },
     {
-      title: "St. Joseph Engineering College",
-      subtitle: "B.Eng. in Mechnical Engineering",
-      logo_path: "sjec.jpg",
-      alt_name: "SJEC",
+      title: "Visvesvaraya Technological University",
+      subtitle: "Bachelor of Engineering",
+      logo_path: "VTU.png",
+      alt_name: "VTU",
       duration: "2014 - 2018",
       descriptions: [
-        "⚡Studied Microprocessors, Programming and Robotics as electives during my course.",
+        "⚡ Studied Microprocessors, Programming and Robotics as electives during my course.",
       ],
-      website_link: "https://sjec.ac.in/",
+      website_link: "https://vtu.ac.in/",
     },
   ],
 };
@@ -315,11 +315,11 @@ const experience = {
           title: "Scholarships",
           company: "Dalhousie University",
           company_url: "https://www.dal.ca/",
-          logo_path: "dal.png",
-          duration: "Jan 2023 - July 2024",
+          logo_path: "Dal.png",
+          duration: "Jan 2023 - Oct 2024",
           location: "Halifax, NS, Canada",
           description:
-            "Received 4 scholarships for being among the top 10% in class.",
+            "Received 5 scholarships for being among the top 10% in class.",
           color: "#FFBB33",
         },
       ],
@@ -331,7 +331,7 @@ const experience = {
           title: "Teaching Assistant",
           company: "Dalhousie University",
           company_url: "https://www.dal.ca/",
-          logo_path: "dal.png",
+          logo_path: "Dal.png",
           duration: "February 2023 - July 2024",
           location: "Halifax, NS, Canada",
           description:
@@ -342,7 +342,7 @@ const experience = {
           title: "President - Automation and Robotics Club",
           company: "St, Joseph Engineering College",
           company_url: "https://sjec.ac.in/",
-          logo_path: "sjec.jpg",
+          logo_path: "VTU.png",
           duration: "Summer of 2017 - Summer of 2018",
           location: "Mangaluru, India",
           description:
@@ -400,6 +400,30 @@ const projects = {
         {
           name: "Matplotlib",
           iconifyClass: "logos-matplotlib",
+        },
+      ],
+    },
+    {
+      name: "AI-Chat Web Page",
+      url: "https://github.com/UttamB96/AI-Chat-Page",
+      description:
+        "A webpage based on Django and React. The website allows users to input prompts to a chat box an receives a response from the AI-model, running locally.",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "Django",
+          iconifyClass: "logos-django",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Typescript",
+          iconifyClass: "logos-typescript",
         },
       ],
     },
