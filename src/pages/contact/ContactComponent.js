@@ -5,8 +5,8 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 //import BlogsImg from "./BlogsImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
-import { greeting, contactPageData } from "../../portfolio.js";
-import { style } from "glamor";
+import { contactPageData } from "../../portfolio.js"; // greeting can be added
+// import { style } from "glamor";
 
 const ContactData = contactPageData.contactSection;
 //const blogSection = contactPageData.blogSection;
@@ -14,12 +14,12 @@ const ContactData = contactPageData.contactSection;
 function Contact(props) {
   const theme = props.theme;
 
-  const styles = style({
+  /*const styles = style({
     backgroundColor: `${theme.accentBright}`,
     ":hover": {
       boxShadow: `0 5px 15px ${theme.accentBright}`,
     },
-  });
+  });*/
 
   return (
     <div className="contact-main">
@@ -30,7 +30,7 @@ function Contact(props) {
             <div className="contact-heading-img-div">
               <img
                 className="profile-pic"
-                src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+                src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
                 alt=""
               />
             </div>
