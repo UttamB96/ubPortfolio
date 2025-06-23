@@ -123,7 +123,7 @@ const skills = {
       title: "Cloud",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Certified AWS Cloud Practioner",
+        "⚡ Certified AWS Cloud Practitioner",
         "⚡ Experience working on multiple cloud platforms, including Azure",
         "⚡ Deploying Microservices on cloud to use on websites",
       ],
@@ -242,7 +242,7 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "AWS Certified Cloud Practioner",
+      title: "AWS Certified Cloud Practitioner",
       subtitle: "Amazon Web Services",
       logo_path: "aws.png",
       certificate_link:
@@ -285,7 +285,7 @@ const experience = {
           color: "#FFBB33",
         },
         {
-          title: "Associate Consultant",
+          title: "Data Engineer",
           company: "Infosys Limited",
           company_url: "https://www.infosys.com/",
           logo_path: "infosys-logo.webp",
@@ -325,7 +325,7 @@ const experience = {
       ],
     },
     {
-      title: "Volunteerships",
+      title: "Volunteering",
       experiences: [
         {
           title: "Teaching Assistant",
@@ -346,7 +346,7 @@ const experience = {
           duration: "Summer of 2017 - Summer of 2018",
           location: "Mangaluru, India",
           description:
-            "Day to day resposibilites of this position included planning and organizing programming and robotics workshops, as well as contests for both club members and students.",
+            "Day to day responsibilities of this position included planning and organizing programming and robotics workshops, as well as contests for both club members and students.",
           color: "#FF6619",
         },
       ],
